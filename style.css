@@ -21,3 +21,14 @@
     .title{
         font-size: 26px;
     }
+
+    section{
+       
+    }
+
+    .formContainer{
+        max-width: 230px;
+        background-color: #FFFFFFBB;
+        padding: 20px;
+        float: right;
+    }
