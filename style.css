@@ -23,7 +23,10 @@
     }
 
     section{
-       
+       padding: 20px;
+       background-image: url('/imagens/people.jpg') ;
+       background-size: cover;
+       overflow: hidden;
     }
 
     .formContainer{
@@ -31,4 +34,58 @@
         background-color: #FFFFFFBB;
         padding: 20px;
         float: right;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    .mb{
+        margin-bottom: 15px;
+    }
+
+    input, select{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    input[type="button"]{
+        color: white;
+        background-color: aqua;
+        font-weight: bolder;
+
+    }
+
+    select{
+        appearance: none;
+        background-image: url('/imagens/arrow.jpg');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 10px) center;
+    }
+    footer{
+        background-color: #202121;
+        padding: 5%;
+        text-align: center;
+    }
+
+    .picture{
+        width: 160px;
+    }
+
+    .description{
+        display: inline-block;
+        color: white;
+        max-width: 40%;
+        margin-left: 40px;
+        text-align: left;
+    }
+
+    .description p, .description h3{
+        margin-bottom: 20px;
+    }
+    .description h3{
+        font-size: 24px;
     }
