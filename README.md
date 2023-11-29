@@ -12,3 +12,6 @@ O controle das tarefas deste projeto será realizado no GitHub.
 :beatle: correção de bugs.
 :checkered_flag: release.
 
+## Atualização em 2023
+
+Refatoração da página usando PHP para inserir cabeçalho e rodapé dinâmico, facilitando a manutenção da página.
